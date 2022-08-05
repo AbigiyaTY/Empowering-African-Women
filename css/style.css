@@ -1,0 +1,598 @@
+/* stylelint-disable max-empty-lines */
+
+
+/* stylelint-disable no-descending-specificity */
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, Helvetica, sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Top */
+
+
+/* Header section */
+
+.header1,
+.header2List {
+  display: none;
+}
+
+.header1 ul li {
+  font-size: 16px;
+}
+
+.fb {
+  margin-right: -4%;
+}
+
+.header2 {
+  color: #272a31;
+}
+
+.header2:hover {
+  color: #ec5242;
+}
+
+.openMenu {
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
+
+/* section one */
+
+.main {
+  background-image: url('../image/hearerbg.png');
+  background-repeat: no-repeat;
+  padding-top: 48%;
+}
+
+.headerTitle {
+  color: #d3d3d3;
+}
+
+.headerTitleh2 {
+  font-size: 25px;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+  padding-left: 6%;
+}
+
+.redBG {
+  padding-left: 6%;
+}
+
+.headerTitleh1 {
+  font-size: 27px;
+  font-weight: 900;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.headerTitleP {
+  font-size: 14px;
+  border: 10px solid #fff;
+}
+
+.headerDate {
+  font-weight: 600;
+  font-size: 25px;
+  color: #585d6b;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.headerAt {
+  font-size: 20px;
+}
+
+
+/* Program Section */
+
+.divTwo {
+  background-image: url(../image/samuel-scalzo-xyuYk9oLA8I-unsplash.jpg);
+}
+
+hr {
+  color: #fb0606;
+  width: 30%;
+  margin-left: 35%;
+  border-width: 3px;
+}
+
+.bgScreen div div .imageMain {
+  height: 150px;
+}
+
+.programDetail div {
+  background-color: #fff1;
+}
+
+.programDetail div h2 {
+  color: #ec5242;
+  font-size: 17px;
+}
+
+.programDetail div p {
+  font-size: 12px;
+}
+
+.invitation p {
+  background-color: #ec5242;
+}
+
+.pBig {
+  display: none;
+}
+
+
+/* Hamberger mainu popup */
+
+.nav-container {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+}
+
+.closeMenu i {
+  font-size: 2rem;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.header2 .mainMenu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  justify-content: center;
+  align-items: initial;
+  background-image: url('../image/hearerbg.png');
+  background-position: left, bottom right;
+  background-repeat: no-repeat;
+  transition: top 1s ease;
+}
+
+.navbar-list .openMenu {
+  display: block;
+}
+
+.mainMenu .nav-item .nav-link {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.2s ease;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 8%;
+  z-index: 10;
+}
+
+.closeMenu {
+  display: inline-block;
+}
+
+.navSpanArrow1,
+.navSpanArrow2,
+.navSpanArrow3,
+.navSpanArrow4,
+.navSpanArrow5 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  align-items: flex-end;
+}
+
+.navSpanArrow1 {
+  padding-left: 11.5rem;
+}
+
+.navSpanArrow2 {
+  padding-left: 9.5rem;
+}
+
+.navSpanArrow3 {
+  padding-left: 12.5rem;
+}
+
+.navSpanArrow4 {
+  padding-left: 11.5rem;
+}
+
+.navSpanArrow5 {
+  padding-left: 5.5rem;
+}
+
+
+/* Feature speakers */
+
+.person div img {
+  width: 100%;
+  height: 90%;
+}
+
+.section-heading {
+  color: #000;
+}
+
+#speakers .person-graphic::before {
+  position: absolute;
+  top: -0.5rem;
+  inset-inline-start: -0.5rem;
+  width: calc(6 * 8px + 4px);
+  height: calc(6 * 8px + 4px);
+  content: '';
+  z-index: -1;
+  background-image: url('../image/checkerboard-squares-black-white.jpg');
+}
+
+.person-name,
+.person-bio {
+  color: #000;
+}
+
+.person-title {
+  color: #ec5242;
+}
+
+
+/* More */
+
+#speakers .more {
+  border: 1px solid #272a31;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 0.5rem;
+  color: #000;
+}
+
+#speakers .more i {
+  height: 1rem;
+  color: #fb0606;
+}
+
+#speakers .person.mobile-hide {
+  display: none;
+}
+
+
+/* partner */
+
+.partnerBG {
+  background-color: #272a31;
+}
+
+.partner ul li img {
+  width: 80%;
+  height: 90%;
+}
+
+.partnerh2 {
+  color: #fff;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+
+/* footer */
+
+.footerh4 {
+  color: #000;
+}
+
+footer div ul li img {
+  width: 90%;
+  height: 100%;
+}
+
+footer div ul li h4 {
+  font-size: 10px;
+  margin-left: 12%;
+}
+
+
+/* About section */
+
+.bodyHeader {
+  padding-top: 50%;
+  background-image: url('../image/hearerbg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bodyHeader h2 {
+  font-size: 17px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.bodyHeader h1 {
+  font-size: 34px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.bodyHeader p {
+  font-size: 21px;
+  width: 300px;
+  border: 3px solid #fff;
+}
+
+.bodyHeader h6 {
+  padding-bottom: 6%;
+}
+
+.bodysection h2,
+.past h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bodysection ul li {
+  font-size: 18px;
+}
+
+.events .img {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.img .event-pic {
+  height: 280px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.event-info {
+  flex-direction: column;
+  position: absolute;
+  background-color: #ec5342b4;
+  row-gap: 0.5rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-info .event-year {
+  margin-top: 25%;
+  font-size: 1rem;
+}
+
+.bodyFooter {
+  background-color: #272a31;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* Header section */
+  .hamburger-menu,
+  .closeMenu {
+    display: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .headerDate {
+    font-size: 30px;
+  }
+
+  .header1 {
+    background-color: #272a31;
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  .logo img {
+    width: 79%;
+    padding-left: 10%;
+    height: 80%;
+  }
+
+  .header2 .mainMenu {
+    position: unset;
+  }
+
+  /* Header section */
+  .main {
+    padding-top: 6%;
+  }
+
+  .headerTitle {
+    margin-top: 30px;
+  }
+
+  .headerTitleh2 {
+    font-size: 30px;
+    padding-top: 1%;
+  }
+
+  .headerTitleh1 {
+    font-size: 40px;
+  }
+
+  .headerTitleP {
+    font-size: 17px;
+    width: 900px;
+  }
+
+  /* program section */
+  hr {
+    width: 9%;
+    margin-left: 46%;
+  }
+
+  .bgScreen div div .imageMain {
+    height: 100px;
+    padding-top: 5% !important;
+  }
+
+  .programDetail div {
+    background-color: #fff1;
+  }
+
+  .bgDarkish {
+    background-image: url(../image/samuel-scalzo-xyuYk9oLA8I-unsplash.jpg);
+  }
+
+  .programDetail div h2 {
+    font-size: 30px;
+  }
+
+  .programDetail div p {
+    font-size: 20px;
+  }
+
+  .py-5 {
+    padding-top: 0 !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .pSmall,
+  .more {
+    display: none !important;
+  }
+
+  .invitation p {
+    background-color: unset;
+  }
+
+  .pBig {
+    display: block;
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  /* Hambreger popup */
+  .openMenu,
+  .mainMenu .closeMenu i,
+  .navSpanArrow1,
+  .navSpanArrow2,
+  .navSpanArrow3,
+  .navSpanArrow4,
+  .navSpanArrow5 {
+    display: none;
+  }
+
+  .nav-container {
+    margin-bottom: 0%;
+    position: fixed;
+  }
+
+  .header2 .header2List {
+    display: flex;
+    height: 0;
+    flex-direction: row;
+    background-color: #fff;
+  }
+
+  .header2 .header2List li {
+    margin-top: -5%;
+  }
+
+  .mainMenu .nav-item .nav-link {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .EAWDicore a {
+    border: 5px solid #ec5242;
+    color: #ec5242 !important;
+  }
+
+  /* more */
+  #speakers .person.mobile-hide {
+    display: flex;
+  }
+
+  /* partner */
+  .partnerh2 {
+    padding-left: 10%;
+  }
+
+  .partner hr {
+    margin-left: 50.5%;
+  }
+
+  /* footer */
+  footer div ul li img {
+    width: 60%;
+    height: 51%;
+    margin-top: 40px;
+    margin-left: 340px;
+  }
+
+  footer div ul li h4 {
+    font-size: 20px;
+    margin-top: 40px;
+    color: rgb(1, 1, 27);
+  }
+
+  /* About section */
+  .bodyHeader {
+    padding-top: 15%;
+  }
+
+  .bodyHeader h2 {
+    font-size: 33px;
+  }
+
+  .bodyHeader h1 {
+    font-size: 54px;
+  }
+
+  .bodyHeader p {
+    width: 900px;
+    margin-left: 15% !important;
+  }
+
+  .bodysection ul li {
+    font-size: 25px;
+  }
+
+  .bodysection h2,
+  .past h2 {
+    font-size: 30px;
+  }
+
+  .pastP {
+    font-size: 20px;
+  }
+
+  .event-info .event-year {
+    margin-top: 15%;
+    font-size: 2rem;
+  }
+}
