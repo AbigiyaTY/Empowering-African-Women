@@ -11,7 +11,7 @@ this is sample webpage for Empowering African Womens conference
 
 ## Live Demo 
 
-[Live Demo Link](/)
+[Live Demo Link](https://abigiyaty.github.io/Empowering-African-Women//)
 
 ## Here is a link to my loom Here is a link to my loom
 

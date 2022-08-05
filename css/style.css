@@ -28,11 +28,22 @@ a {
 }
 
 
+/* Top */
+
+
 /* Header section */
 
 .header1,
 .header2List {
   display: none;
+}
+
+.header1 ul li {
+  font-size: 16px;
+}
+
+.fb {
+  margin-right: -4%;
 }
 
 .header2 {
@@ -54,7 +65,7 @@ a {
 .main {
   background-image: url('../image/hearerbg.png');
   background-repeat: no-repeat;
-  padding-top: 130px;
+  padding-top: 48%;
 }
 
 .headerTitle {
@@ -65,7 +76,11 @@ a {
   font-size: 25px;
   color: #ec5242;
   font-family: 'COCOGOOSE', sans-serif;
-  padding-top: 16%;
+  padding-left: 6%;
+}
+
+.redBG {
+  padding-left: 6%;
 }
 
 .headerTitleh1 {
@@ -76,19 +91,18 @@ a {
 }
 
 .headerTitleP {
-  color: #272a31;
   font-size: 14px;
   border: 10px solid #fff;
 }
 
 .headerDate {
-  font-weight: 800;
-  color: #272a31;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #585d6b;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .headerAt {
-  color: #272a31;
   font-size: 20px;
 }
 
@@ -142,14 +156,14 @@ hr {
 
 .closeMenu i {
   font-size: 2rem;
-  color: #acb7c3;
+  color: #000;
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
 .header2 .mainMenu {
   height: 100%;
-  width: 105%;
+  width: 100%;
   position: fixed;
   top: 0;
   right: 0;
@@ -157,8 +171,7 @@ hr {
   z-index: 10;
   justify-content: center;
   align-items: initial;
-  background-image: url('../image/red-bg.jpg') !important;
-  color: red !important;
+  background-image: url('../image/hearerbg.png');
   background-position: left, bottom right;
   background-repeat: no-repeat;
   transition: top 1s ease;
@@ -190,18 +203,18 @@ hr {
 .navSpanArrow3,
 .navSpanArrow4,
 .navSpanArrow5 {
-  color: #acb7c3;
+  color: #000;
   font-size: 20px;
   font-weight: 400;
   align-items: flex-end;
 }
 
 .navSpanArrow1 {
-  padding-left: 11rem;
+  padding-left: 11.5rem;
 }
 
 .navSpanArrow2 {
-  padding-left: 8.5rem;
+  padding-left: 9.5rem;
 }
 
 .navSpanArrow3 {
@@ -209,11 +222,11 @@ hr {
 }
 
 .navSpanArrow4 {
-  padding-left: 11rem;
+  padding-left: 11.5rem;
 }
 
 .navSpanArrow5 {
-  padding-left: 4rem;
+  padding-left: 5.5rem;
 }
 
 
@@ -304,6 +317,7 @@ footer div ul li img {
 
 footer div ul li h4 {
   font-size: 10px;
+  margin-left: 12%;
 }
 
 
@@ -389,6 +403,10 @@ footer div ul li h4 {
     margin-bottom: 0;
   }
 
+  .headerDate {
+    font-size: 30px;
+  }
+
   .header1 {
     background-color: #272a31;
     display: block;
@@ -396,7 +414,9 @@ footer div ul li h4 {
   }
 
   .logo img {
-    width: 50%;
+    width: 79%;
+    padding-left: 10%;
+    height: 80%;
   }
 
   .header2 .mainMenu {
@@ -404,13 +424,17 @@ footer div ul li h4 {
   }
 
   /* Header section */
+  .main {
+    padding-top: 6%;
+  }
+
   .headerTitle {
     margin-top: 30px;
   }
 
   .headerTitleh2 {
     font-size: 30px;
-    padding-top: 0;
+    padding-top: 1%;
   }
 
   .headerTitleh1 {
